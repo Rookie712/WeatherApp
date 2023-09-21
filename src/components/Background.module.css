@@ -1,0 +1,9 @@
+.main{
+    background-color:#215d78;
+}
+.main img{
+    width: 99.99%;
+    height:100vh;
+    z-index:0;
+    object-fit: cover;
+}

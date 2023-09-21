@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=PT+Sans&display=swap");
+.clock{
+    position: absolute;
+    top:400px;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    z-index: 6;
+    font-family: 'digital-clock-font';
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0;
+}
+.middle{
+    letter-spacing: 0.4em;
+    font-weight: 100;
+    width: 90%;
+    text-align: center;
+}
+.weekday h4{
+    display: block;
+}
+.weekday{
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+   font-family:'PT Sans', sans-serif;
+   font-size: 1rem;
+   letter-spacing: 0.4em;
+   justify-content: space-around;
+}
+@font-face{
+    font-family: 'digital-clock-font';
+    src: url('../assets/digital.ttf');
+}

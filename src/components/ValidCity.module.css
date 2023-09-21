@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Oswald:wght@500&family=PT+Sans&display=swap');
+.validCity{
+    position: absolute;
+    top:150px;
+    left:120px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Oswald:wght@500&family=PT+Sans&display=swap');
+.inputClass input{
+    background: transparent;
+    border: inherit;
+    border-bottom:4px solid #fff;
+    color: #fff;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    font-size:1rem;
+    letter-spacing: 0.2em;
+}
+.inputClass{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    transition: 5s;
+}
+.inputClass button{
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.inputClass button:hover{
+    color: rgb(0, 225, 255);
+    transform:scale(2)
+}
